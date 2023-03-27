@@ -64,6 +64,11 @@
       "factory": "./src/generators/remote/generator",
       "schema": "./src/generators/remote/schema.json",
       "description": "Generate a remote Qwik application for the micro frontend setup"
+    },
+    "integrations/netlify": {
+      "factory": "./src/generators/integrations/netlify/generator",
+      "schema": "./src/generators/integrations/netlify/schema.json",
+      "description": "integrations/netlify generator"
     }
   }
 }

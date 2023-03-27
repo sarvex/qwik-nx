@@ -2,6 +2,7 @@ import { ProjectConfiguration } from '@nrwl/devkit';
 
 export enum IntegrationName {
   Cloudflare = 'cloudflare',
+  Netlify = 'netlify',
 }
 
 /**
